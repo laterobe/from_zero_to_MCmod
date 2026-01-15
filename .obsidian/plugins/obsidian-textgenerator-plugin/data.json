@@ -89,7 +89,56 @@
     "ImageExtractor": true
   },
   "displayErrorInEditor": false,
-  "LLMProviderProfiles": {},
+  "LLMProviderProfiles": {
+    "OpenAI Chat (Langchain) 1": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 1"
+    },
+    "OpenAI Chat (Langchain) 1 2": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 2"
+    },
+    "OpenAI Chat (Langchain) 1 2 3": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 3"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 4"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 5"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 6"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 7"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7 8": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 8"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7 8 9": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 9"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7 8 9 10": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 10"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7 8 9 10 11": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 11"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7 8 9 10 11 12": {
+      "extends": "OpenAI Chat (Langchain)",
+      "name": "OpenAI Chat 12"
+    }
+  },
   "LLMProviderOptions": {
     "whisper": {
       "base_path": "https://api.openai.com/v1",
@@ -99,12 +148,73 @@
     },
     "OpenAI Chat (Langchain)": {
       "basePath": "https://api.deepseek.com",
-      "api_key": ""
+      "api_key": "",
+      "model": "deepseek-chat"
+    },
+    "OpenAI Chat (Langchain) 1": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
+    },
+    "OpenAI Chat (Langchain) 1 2": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
+    },
+    "OpenAI Chat (Langchain) 1 2 3": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7 8": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7 8 9": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7 8 9 10": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7 8 9 10 11": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
+    },
+    "OpenAI Chat (Langchain) 1 2 3 4 5 6 7 8 9 10 11 12": {
+      "basePath": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "computer-use-preview"
     }
   },
   "LLMProviderOptionsKeysHashed": {
     "whisper.api_key": "__@#key_prefix#@__",
-    "OpenAI Chat (Langchain).api_key": "__@#key_prefix#@__sk-8e6f8c08e8d444acbce85ee28253d6fa"
+    "OpenAI Chat (Langchain).api_key": "__@#key_prefix#@__sk-0b27dc09372548e6b81a4e7df09b001c"
   },
-  "api_key_encrypted": "__@#key_prefix#@__sk-8e6f8c08e8d444acbce85ee28253d6fa"
+  "api_key_encrypted": "__@#key_prefix#@__sk-0b27dc09372548e6b81a4e7df09b001c"
 }
